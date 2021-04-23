@@ -1,14 +1,9 @@
-.body {
-    background: black;
-    background-color: black;
-}
-
 .container {
     display: flex;
     position: absolute;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     top: 30%;
     left: 45%;
 }
@@ -17,7 +12,7 @@
     position: relative;
     width: 37px;
     height: 200px;
-    background: #fff;
+    background: black;
     box-shadow: 10px 10px 0 0 #fe2d52;
     filter: drop-shadow(-10px -10px 0 #24f6f0) brightness(1.5);
 }
@@ -30,7 +25,7 @@
     right: 1px;
     bottom: -86px;
     border-radius: 50%;
-    border: 37px solid #fff;
+    border: 37px solid black;
     border-top: 37px solid transparent;
     transform: rotate(45deg);
     filter: drop-shadow(14px 0 0 #fe2d52);
@@ -43,7 +38,7 @@
     height: 140px;
     border-radius: 100%;
     border: 30px solid transparent;
-    border-bottom: 30px solid white;
+    border-bottom: 30px solid black;
     top: -100px;
     left: 6px;
     transform: rotate(45deg);
