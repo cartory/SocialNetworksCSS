@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    position: absolute;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    top: 30%;
+    left: 45%;
+}
+
+.tiktok {
+    position: relative;
+    width: 37px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 10px 10px 0 0 #fe2d52;
+    filter: drop-shadow(-10px -10px 0 #24f6f0) brightness(1.5);
+}
+
+.tiktok::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 1px;
+    bottom: -86px;
+    border-radius: 50%;
+    border: 37px solid #fff;
+    border-top: 37px solid transparent;
+    transform: rotate(45deg);
+    filter: drop-shadow(14px 0 0 #fe2d52);
+}
+
+.tiktok::after {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 30px solid transparent;
+    border-bottom: 30px solid white;
+    top: -100px;
+    left: 6px;
+    transform: rotate(45deg);
+    filter: drop-shadow(14px 0 0 #fe2d52);
+}
+
+.youtube {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% / 21%;
+    background-image: linear-gradient(to top right, red, #C83D47);
+}
+
+.youtube::before {
+    content: '';
+    position: absolute;
+    width: 109%;
+    height: 69%;
+    border-radius: 10% / 60%;
+    background-image: linear-gradient(to top right, red, #C83D47);
+}
+
+.youtube::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 60px;
+    background-image: linear-gradient(to right, red, #C83D47bb);
+    transform: rotate(45deg) skew(5deg, -10deg) scale(1.008);
+}
+
+.play {
+    position: relative;
+    color: red;
+    background: white;
+    z-index: 1;
+    width: 215px;
+    height: 160px;
+    border-radius: 50%/10%;
+    transform: scale(.5);
+}
+
+.play::before {
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 80%;
+    top: 10%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+}
+
+.play::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 30%;
+    left: 36%;
+    border: 30px solid transparent;
+    border-left: 73px solid #C83D47;
+}
