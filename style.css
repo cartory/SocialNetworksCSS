@@ -19,7 +19,7 @@ html, body {
     position: relative;
     width: 37px;
     height: 200px;
-    background: white;
+    background: white !important;
     box-shadow: 10px 10px 0 0 #fe2d52;
     filter: drop-shadow(-10px -10px 0 #24f6f0) brightness(1.5);
 }
@@ -32,7 +32,7 @@ html, body {
     right: 1px;
     bottom: -86px;
     border-radius: 50%;
-    border: 37px solid white;
+    border: 37px solid white !important;
     border-top: 37px solid transparent;
     transform: rotate(45deg);
     filter: drop-shadow(14px 0 0 #fe2d52);
@@ -45,7 +45,7 @@ html, body {
     height: 140px;
     border-radius: 100%;
     border: 30px solid transparent;
-    border-bottom: 30px solid white;
+    border-bottom: 30px solid white !important;
     top: -100px;
     left: 6px;
     transform: rotate(45deg);
