@@ -5,13 +5,13 @@ html, body {
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     position: absolute;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    top: 30%;
-    left: 45%;
     background: #000;
 }
 
